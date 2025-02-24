@@ -18,5 +18,19 @@
   "devDependencies": {
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.5"
-  }
+  },
+    "playwright.env": {
+        "PRACTICE_USERNAME":"admin",
+        "PRACTICE_PASSWORD":"admin",
+        "QA_URL":"https://qa.sep.tdtm.cydeo.com/taws",
+        "QA_USERNAME":"automation-user",
+        "QA_PASSWORD":"123abc"
+
+    },
+    "terminal.integrated.env.windows": {
+        "PRACTICE_USERNAME":"admin",
+        "PRACTICE_PASSWORD":"admin",
+        "QA_USERNAME":"automation-user",
+        "QA_PASSWORD":"123abc"
+    }
 }
